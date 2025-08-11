@@ -6,7 +6,7 @@ import { ThemeProvider } from './components/theme-provider'
 import { UserProvider } from './context/UserContext'
 import { ProductProvider } from './context/ProductContext'
 import { CartProvider } from './context/CartContext'
-const server = process.env.REACT_APP_API_URL;
+export const server = process.env.REACT_APP_API_URL;
 
 export const categories = [
   "sayur",
@@ -29,3 +29,4 @@ createRoot(document.getElementById('root')).render(
     </ThemeProvider>
   </StrictMode>,
 );
+
