@@ -16,8 +16,15 @@ cloudinary.v2.config({
 
 const app = express();
 
+
+app.use(cors(
+    {
+        origin: ["https://manans-farm-front.vercel.app"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 app.use(express.json());
-app.use(cors());
 const port = process.env.PORT;
 
 
