@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import { User } from '../models/user.js';
+import { User } from '../models/User.js';
 
 // Middleware untuk mengecek apakah user login
 export const isAuth = async (req, res, next) => {
