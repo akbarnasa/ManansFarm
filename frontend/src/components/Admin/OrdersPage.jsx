@@ -10,7 +10,7 @@ import toast from 'react-hot-toast'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
 
-const server = "http://localhost:5000"
+const server = import.meta.env.VITE_API_URL;
 
 const OrdersPage = () => {
   const [orders, setOrders] = useState([])

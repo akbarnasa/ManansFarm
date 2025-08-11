@@ -20,7 +20,7 @@ import autoTable from 'jspdf-autotable'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
-const server = "http://localhost:5000"
+const server = import.meta.env.VITE_API_URL;
 
 const InfoPage = () => {
   const [selectedYear, setSelectedYear] = useState(moment().year())

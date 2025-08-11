@@ -206,7 +206,7 @@ let snap = new midtransClient.Snap({
 
           },
           callbacks: {
-            finish: "http://localhost:5173/success",
+            finish: "${process.env.Frontend_Url}/success",
           },
           method: method,
           address: `${alamatLengkap}, ${kecamatan}, ${kabupaten}, ${provinsi}`,

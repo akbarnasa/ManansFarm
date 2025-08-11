@@ -5,7 +5,7 @@ import Cookies from 'js-cookie'
 import Loading from '../Loading'
 
 
-const server = "http://localhost:5000"
+const server = import.meta.env.VITE_API_URL;
 
 const AdminDashboard = () => {
   const [users, setUsers] = useState([])

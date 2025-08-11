@@ -39,7 +39,7 @@ app.use("/api", salesRoute);
 
 
 app.listen(port, ()=> {
-    console.log(`Server berjalan pada http://localhost:${port}`);
+    console.log(`Server berjalan pada :${port}`);
     connectDb();
 });
 
