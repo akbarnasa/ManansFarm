@@ -18,13 +18,13 @@ const app = express();
 
 
 app.use(cors({
-    origin: ["https://manans-farm-front.vercel.app"],
+    origin: ["https:/manans-farm-front.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true
   }));
   
   app.options('*', cors({
-    origin: ["https://manans-farm-front.vercel.app"],
+    origin: ["https:/manans-farm-front.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true
   }));
