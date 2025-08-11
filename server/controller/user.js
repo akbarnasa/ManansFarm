@@ -1,4 +1,4 @@
-import { OTP } from "../models/otp.js";
+import { OTP } from "../models/Otp.js";
 import { User } from "../models/User.js";
 import TryCatch from "../utils/TryCatch.js";
 import otpSending from "../utils/otpSending.js";
