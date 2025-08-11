@@ -36,7 +36,7 @@ import {
   ChartJS.register(ArcElement, Tooltip, Legend);
   
 
-  const server = process.env.VITE_API_URL;
+  const server = import.meta.env.VITE_API_URL;
 
 const ClusterAnalysis = () => {
   const [clusters, setClusters] = useState([]);
