@@ -91,8 +91,9 @@ export const UserProvider = ({ children }) => {
   async function fetchUser() {
     try {
       const { data } = await axios.get(`${server}/api/user/me`, {
+        withCredentials: true,
         headers: {
-          token: Cookies.get("token"), // Mengirim token yang ada di cookies
+          Authorization: `Bearer ${token}`, // Mengirim token yang ada di cookies
         },
       });
       setIsAuth(true); // Set status autentikasi menjadi true
