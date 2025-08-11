@@ -9,6 +9,7 @@ import Cookies from "js-cookie"; // Untuk menangani cookies
 
 // Membuat konteks untuk data pengguna
 const UserContext = createContext();
+const token = Cookies.get("token");
 
 // Provider untuk mengelola state pengguna
 export const UserProvider = ({ children }) => {
