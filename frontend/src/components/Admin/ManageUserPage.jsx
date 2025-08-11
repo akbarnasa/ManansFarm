@@ -27,7 +27,7 @@ import {
 import { Button } from '../ui/button';
 
 
-const server = "http://localhost:5000";
+const server = process.env.REACT_APP_API_URL;
 
 const ManageUsersPage = () => {
   const [users, setUsers] = useState([]);

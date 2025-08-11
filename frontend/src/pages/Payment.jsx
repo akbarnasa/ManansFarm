@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Loading from '@/components/Loading';
 import { Button } from '@/components/ui/button';
-export const server = "http://localhost:5000";
+const server = process.env.REACT_APP_API_URL;
 import Cookies from 'js-cookie';
 import { jwtDecode } from 'jwt-decode';
 import toast from 'react-hot-toast';

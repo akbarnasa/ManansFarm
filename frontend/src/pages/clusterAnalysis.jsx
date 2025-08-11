@@ -36,7 +36,7 @@ import {
   ChartJS.register(ArcElement, Tooltip, Legend);
   
 
-const server = "http://localhost:5000";
+  const server = process.env.REACT_APP_API_URL;
 
 const ClusterAnalysis = () => {
   const [clusters, setClusters] = useState([]);
