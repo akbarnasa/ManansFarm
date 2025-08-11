@@ -13,7 +13,7 @@ import {
   TableRow,
 } from '../ui/table';
 
-const server = process.env.REACT_APP_API_URL;
+const server = process.env.VITE_REACT_APP_API_URL;
 
 const ManageStock = () => {
   const [products, setProducts] = useState([]);

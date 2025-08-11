@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 
-const server = process.env.REACT_APP_API_URL;
+const server = process.env.VITE_REACT_APP_API_URL;
 
 const Success = () => {
   const [searchParams] = useSearchParams();
