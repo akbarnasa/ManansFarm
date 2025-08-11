@@ -27,7 +27,7 @@ import {
 import { Button } from '../ui/button';
 
 
-const server = process.env.VITE_REACT_APP_API_URL;
+const server = process.env.VITE_API_URL;
 
 const ManageUsersPage = () => {
   const [users, setUsers] = useState([]);

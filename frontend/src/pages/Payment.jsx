@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Loading from '@/components/Loading';
 import { Button } from '@/components/ui/button';
-const server = process.env.VITE_REACT_APP_API_URL;
+const server = process.env.VITE_API_URL;
 import Cookies from 'js-cookie';
 import { jwtDecode } from 'jwt-decode';
 import toast from 'react-hot-toast';
