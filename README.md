@@ -14,6 +14,8 @@
 
 Aplikasi ini dikembangkan sebagai **Tugas Akhir Skripsi** dengan tujuan meningkatkan aksesibilitas pasar bagi pelaku usaha pertanian dan mempermudah konsumen dalam mendapatkan produk pertanian segar berkualitas.
 
+Selain sebagai platform penjualan, aplikasi ini juga mengintegrasikan analisis data menggunakan algoritma K-Means Clustering untuk mengelompokkan produk maupun perilaku pembelian konsumen, sehingga dapat memberikan insight bisnis yang berguna bagi penjual dalam mengambil keputusan strategis.
+
 ---
 
 ## ✨ Fitur Utama
@@ -25,6 +27,7 @@ Aplikasi ini dikembangkan sebagai **Tugas Akhir Skripsi** dengan tujuan meningka
 - 📋 **Riwayat Pesanan** — Tracking status pesanan secara real-time
 - 🔐 **Panel Admin** — Manajemen produk, pesanan, dan pengguna
 - 📱 **Responsive Design** — Tampilan optimal di semua perangkat
+- 📊 Analisis K-Means Clustering — Pengelompokan produk dan konsumen berdasarkan pola data transaksi
 
 ---
 
